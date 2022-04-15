@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T02:52:15.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Mz5YX3qngZHDT-NZ2QY1" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T09:07:41.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="axe8YkuHYPOPd_UjStZy" version="17.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1106" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="647" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-10" value="IAM" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="805" y="309" width="230" height="492.5" as="geometry" />
+          <mxGeometry x="805" y="309" width="230" height="492.5" as="geometry">
+            <mxRectangle x="805" y="309" width="49" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-42" value="账号同步API" style="rounded=1;whiteSpace=wrap;html=1;" parent="et6cZzT2-r2UlGmGOqfe-10" vertex="1">
           <mxGeometry x="64" y="142.5" width="126" height="46" as="geometry" />
