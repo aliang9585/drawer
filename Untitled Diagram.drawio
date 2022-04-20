@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T02:15:56.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Ctb_ISqlSoRtZmLRRu7y" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T02:19:12.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="YGM0NL9xvxuby55gVkW7" version="17.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1480" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -276,7 +276,7 @@
         <mxCell id="5mdztnsKgksjzjE1GrsO-76" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;elbow=vertical;" edge="1" parent="1" source="5mdztnsKgksjzjE1GrsO-74" target="5mdztnsKgksjzjE1GrsO-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5mdztnsKgksjzjE1GrsO-77" value="&lt;span style=&quot;font-size: 11px&quot;&gt;1、账号同步、erp授权、库授权、权限迁移步骤出问题，JSM进行邮件+电话告警&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;2、JSM预留接口可以进行IAM每个交互步骤的重试&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;3、权限迁移回调时传2种状态：0失败，1成功&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;JSM会在回调状态失败时告警，但成功时改账号状态为成功&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;dashed=1;fontSize=14;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="5mdztnsKgksjzjE1GrsO-77" value="&lt;span style=&quot;font-size: 11px&quot;&gt;1、账号同步、erp授权、库授权、权限迁移步骤出问题，JSM进行邮件+电话告警&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;2、JSM预留接口可以进行IAM每个交互步骤的重试&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;3、权限迁移回调时传2种状态：0失败，1成功&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;JSM会在回调状态失败时告警，成功时改账号状态为成功&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;dashed=1;fontSize=14;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="846" y="218" width="196" height="252" as="geometry" />
         </mxCell>
       </root>
