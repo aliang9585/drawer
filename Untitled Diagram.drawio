@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T10:51:11.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="9rhiVr_gRdVXkfdLvyd0" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T02:15:56.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Ctb_ISqlSoRtZmLRRu7y" version="17.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1585" dy="778" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1480" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry x="135" y="39" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-8" value="JSM-Web服务" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="412" y="178" width="403" height="657" as="geometry" />
+          <mxGeometry x="412" y="178" width="403" height="810" as="geometry" />
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-54" value="JSM入库-状态标记为&lt;br&gt;创建中" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;" parent="et6cZzT2-r2UlGmGOqfe-8" vertex="1">
           <mxGeometry x="136" y="97" width="126" height="46" as="geometry" />
@@ -56,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mdztnsKgksjzjE1GrsO-1" value="回调接口-状态标记为&lt;br&gt;成功" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="et6cZzT2-r2UlGmGOqfe-8">
-          <mxGeometry x="236" y="580.5" width="126" height="46" as="geometry" />
+          <mxGeometry x="236" y="585" width="126" height="46" as="geometry" />
         </mxCell>
         <mxCell id="5mdztnsKgksjzjE1GrsO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="et6cZzT2-r2UlGmGOqfe-8" source="5mdztnsKgksjzjE1GrsO-7" target="et6cZzT2-r2UlGmGOqfe-54">
           <mxGeometry relative="1" as="geometry" />
@@ -115,9 +115,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mdztnsKgksjzjE1GrsO-30" value="状态标记为&lt;br&gt;成功" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="et6cZzT2-r2UlGmGOqfe-8">
-          <mxGeometry x="25" y="580.5" width="126" height="46" as="geometry" />
+          <mxGeometry x="27" y="742" width="126" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="5mdztnsKgksjzjE1GrsO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="et6cZzT2-r2UlGmGOqfe-8" source="5mdztnsKgksjzjE1GrsO-27" target="5mdztnsKgksjzjE1GrsO-30">
+        <mxCell id="5mdztnsKgksjzjE1GrsO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="et6cZzT2-r2UlGmGOqfe-8" source="5mdztnsKgksjzjE1GrsO-27" target="5mdztnsKgksjzjE1GrsO-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="190.25" as="sourcePoint" />
             <mxPoint x="94" y="212" as="targetPoint" />
@@ -128,8 +128,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5mdztnsKgksjzjE1GrsO-72" value="账号库授权" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="et6cZzT2-r2UlGmGOqfe-8">
+          <mxGeometry x="27" y="662" width="126" height="46" as="geometry" />
+        </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-10" value="IAM" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="1074" y="323" width="230" height="492.5" as="geometry">
+          <mxGeometry x="1074" y="323" width="230" height="674" as="geometry">
             <mxRectangle x="805" y="309" width="49" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -141,6 +144,9 @@
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-44" value="erp账号权限迁移API" style="rounded=1;whiteSpace=wrap;html=1;" parent="et6cZzT2-r2UlGmGOqfe-10" vertex="1">
           <mxGeometry x="64" y="361.5" width="126" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="5mdztnsKgksjzjE1GrsO-74" value="库授权API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="et6cZzT2-r2UlGmGOqfe-10">
+          <mxGeometry x="64" y="517" width="126" height="46" as="geometry" />
         </mxCell>
         <mxCell id="et6cZzT2-r2UlGmGOqfe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="et6cZzT2-r2UlGmGOqfe-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -192,9 +198,6 @@
             <mxPoint x="342" y="223" as="sourcePoint" />
             <mxPoint x="422" y="338" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="et6cZzT2-r2UlGmGOqfe-69" value="1、账号同步、授权、权限迁移步骤出问题，JSM进行邮件+电话告警&lt;br&gt;2、JSM预留接口可以进行IAM每个j交互步骤的重试&lt;br&gt;3、权限迁移回调时传3种状态：0失败，1全部成功、2部分成功、&lt;br&gt;JSM会在0、2时告警，但1,2都会改账号状态为成功" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;opacity=80;" parent="1" vertex="1">
-          <mxGeometry x="730" y="299" width="364" height="181" as="geometry" />
         </mxCell>
         <mxCell id="5mdztnsKgksjzjE1GrsO-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.452;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="et6cZzT2-r2UlGmGOqfe-42" target="et6cZzT2-r2UlGmGOqfe-56">
           <mxGeometry relative="1" as="geometry">
@@ -266,6 +269,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="181" y="605.9999999999998" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5mdztnsKgksjzjE1GrsO-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;elbow=vertical;" edge="1" parent="1" source="5mdztnsKgksjzjE1GrsO-72" target="5mdztnsKgksjzjE1GrsO-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5mdztnsKgksjzjE1GrsO-76" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;elbow=vertical;" edge="1" parent="1" source="5mdztnsKgksjzjE1GrsO-74" target="5mdztnsKgksjzjE1GrsO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5mdztnsKgksjzjE1GrsO-77" value="&lt;span style=&quot;font-size: 11px&quot;&gt;1、账号同步、erp授权、库授权、权限迁移步骤出问题，JSM进行邮件+电话告警&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;2、JSM预留接口可以进行IAM每个交互步骤的重试&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;3、权限迁移回调时传2种状态：0失败，1成功&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;JSM会在回调状态失败时告警，但成功时改账号状态为成功&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;dashed=1;fontSize=14;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="846" y="218" width="196" height="252" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
